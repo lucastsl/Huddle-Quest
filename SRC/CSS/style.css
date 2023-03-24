@@ -1,0 +1,110 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    min-height: 100vh;
+    background: url('../images/bg-desktop.svg') center center no-repeat var(--violet);
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner{
+    padding: 0 5rem 0 5rem;
+    max-width: 1440px;
+    
+}
+
+.conteiner .img{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteiner .logo{
+    width: 18rem;
+    padding: 3rem 0 5rem 0;
+    
+}
+
+.conteiner .informacoes .img-huddle {
+    width: 60rem;
+}
+
+.conteiner .informacoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+.conteiner .informacoes .conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; 
+    margin-top: 3.5rem;
+    max-width: 450px;
+    
+}
+.titulo, p{
+    color: #fff;
+}
+
+.informacoes .conteudo .titulo{
+    font-size: 3.5rem;
+    font-weight: 600;
+    
+}
+.informacoes .conteudo p{
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.8;
+    line-height:2.2rem;
+}
+.informacoes .conteudo .btn{
+    display: flex;
+    justify-content: center;
+    width: 17rem;
+    padding: 1.5rem;
+    border-radius: 3rem;
+    box-shadow: 0 1px 5px 1px #000;
+    background-color: #fff;
+    color:var(--violet);
+    font-size: 1.3rem;
+    transition: 0.3s ease-in-out;
+}
+.informacoes .conteudo .btn:hover{
+    background-color: var(--softmagenta);
+    color: #fff;
+}
+
+.conteiner .social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 1rem;
+    font-size: 15px;
+    height: 5rem;
+}
+.conteiner .social i{
+    border: solid 1px #fff;
+    color: #fff;
+    border-radius: 60%;
+    padding: 6px;
+    transition: 0.3s ease-in-out;
+}
+.conteiner .social a i:hover{
+    color: var(--softmagenta);
+    border: solid  1px var(--softmagenta);
+}
+
+
+
+
+
+
+
+
+
+
